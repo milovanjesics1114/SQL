@@ -1,0 +1,6 @@
+USE Gog;
+GO
+
+SELECT * FROM Gog.users
+FOR JSON AUTO
+GO
